@@ -16,7 +16,7 @@ export default function Post( { post } ){
             <p className="px-10">{post.body}</p>
 
             <Link href="/blog-page">
-                <div className="flex cursor-point mt-12">                
+                <div classname="flex cursor-point mt-12">                
                     <svg 
                     className="w-6 h-6 mr-3" 
                     fill="currentColor" 
@@ -26,7 +26,7 @@ export default function Post( { post } ){
                         fillRule="evenodd"
                         stroke-linecap="round" 
                         stroke-linejoin="round" 
-                       _ stroke-width="2" d="M11 19l-7-7 7-7m8 14l-7-7 7-7"></path>
+                        stroke-width="2" d="M11 19l-7-7 7-7m8 14l-7-7 7-7"></path>
                     </svg>
 
                     <span>Back to blog-page</span>
