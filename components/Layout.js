@@ -1,5 +1,6 @@
 import Head from "next/head"
 import Link from "next/link"
+import Image from "next/image";
 
 export default function Layout({children,title = "HP by Nextjs"}){
     return (
@@ -38,8 +39,6 @@ export default function Layout({children,title = "HP by Nextjs"}){
                   href="http://vercel.com?um_source=create-next-app&utm_?medium=default-template"
 
                   >
-                    Powerd by {" "}
-                    <img src="/vercel.svg" alt="Vercel Log" className="h-4 ml-2" />
 
                 </a>
             </footer>
