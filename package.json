@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "buffer": "^6.0.3",
-    "eslint": "8.28.0",
-    "eslint-config-next": "13.0.6",
+    "eslint": "8.29.0",
+    "eslint-config-next": "13.0.5",
     "next": "13.0.5",
     "node-fetch": "^2.6.1",
     "react": "18.2.0",
